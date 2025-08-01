@@ -1,0 +1,14 @@
+# dependencies
+node_modules
+
+# output
+dist
+coverage
+
+# IntelliJ based IDEs
+.idea
+
+# Finder (MacOS) folder config
+.DS_Store
+
+package-lock.json

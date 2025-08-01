@@ -1,0 +1,88 @@
+{
+  "name": "$package_name",
+  "type": "module",
+  "version": "0.0.1",
+  "private": false,
+  "description": "$...",
+  "author": {
+    "name": "Quadratz",
+    "email": "quadratz@proton.me",
+    "url": "https://t.me/quadratz"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/tgast-ecosystem/$package_name",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tgast-ecosystem/$package_name.git"
+  },
+  "bugs": {
+    "email": "quadratz@proton.me",
+    "url": "https://github.com/tgast-ecosystem/$package_name/issues"
+  },
+  "keywords": [
+    "telegram",
+    "bot",
+    "api",
+    "entity",
+    "entities",
+    "ast",
+    "syntax",
+    "tree",
+    "tgast",
+    "tgast-util",
+    "unified",
+    "unifiedjs",
+    "unified.js",
+    "unist",
+    "regram",
+    "util",
+    "utility"
+  ],
+  "exports": {
+    "import": {
+      "types": "./dist/index.d.mts",
+      "default": "./dist/index.mjs"
+    },
+    "require": {
+      "types": "./dist/index.d.cts",
+      "default": "./dist/index.cjs"
+    }
+  },
+  "main": "dist/index.cjs",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "files": [
+    "CHANGELOG.md",
+    "LICENSE",
+    "README.md",
+    "dist",
+    "package.json"
+  ],
+  "scripts": {
+    "lint": "eslint",
+    "lint:fix": "eslint --fix",
+    "test": "vitest run",
+    "build": "unbuild",
+    "release": "pnpm publish --no-git-checks --provenance --access public"
+  },
+  "dependencies": {
+    "@grammyjs/types": "^3.21.0",
+    "tgast": "3.0.0-alpha.1"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^5.0.0",
+    "@types/node": "^24.1.0",
+    "@types/semver": "^7.7.0",
+    "@types/unist": "^3.0.3",
+    "eslint": "^9.32.0",
+    "eslint-plugin-format": "^1.0.1",
+    "semver": "^7.7.2",
+    "unbuild": "^3.6.0",
+    "vitest": "^3.2.4"
+  },
+  "pnpm": {
+    "overrides": {
+      "@eslint/plugin-kit": "^0.3.4"
+    }
+  }
+}

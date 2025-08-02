@@ -1,23 +1,23 @@
 {
-  "name": "$package_name",
+  "name": "tgast-util-to-string",
   "type": "module",
   "version": "0.0.1",
   "private": false,
-  "description": "$...",
+  "description": "tgast utility to get the text content of a node.",
   "author": {
     "name": "Quadratz",
     "email": "quadratz@proton.me",
     "url": "https://t.me/quadratz"
   },
   "license": "MIT",
-  "homepage": "https://github.com/tgast-ecosystem/$package_name",
+  "homepage": "https://github.com/tgast-ecosystem/tgast-util-to-string",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tgast-ecosystem/$package_name.git"
+    "url": "git+https://github.com/tgast-ecosystem/tgast-util-to-string.git"
   },
   "bugs": {
     "email": "quadratz@proton.me",
-    "url": "https://github.com/tgast-ecosystem/$package_name/issues"
+    "url": "https://github.com/tgast-ecosystem/tgast-util-to-string/issues"
   },
   "keywords": [
     "telegram",
@@ -66,14 +66,12 @@
     "release": "pnpm publish --no-git-checks --provenance --access public"
   },
   "dependencies": {
-    "@grammyjs/types": "^3.21.0",
-    "tgast": "3.0.0-alpha.1"
+    "tgast": "3.0.0-alpha.2"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^5.0.0",
+    "@antfu/eslint-config": "^5.1.0",
     "@types/node": "^24.1.0",
     "@types/semver": "^7.7.0",
-    "@types/unist": "^3.0.3",
     "eslint": "^9.32.0",
     "eslint-plugin-format": "^1.0.1",
     "semver": "^7.7.2",

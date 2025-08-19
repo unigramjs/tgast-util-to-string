@@ -10,14 +10,14 @@
     "url": "https://t.me/quadratz"
   },
   "license": "MIT",
-  "homepage": "https://github.com/tgast-ecosystem/tgast-util-to-string",
+  "homepage": "https://github.com/unigramjs/tgast-util-to-string",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tgast-ecosystem/tgast-util-to-string.git"
+    "url": "git+https://github.com/unigramjs/tgast-util-to-string.git"
   },
   "bugs": {
     "email": "quadratz@proton.me",
-    "url": "https://github.com/tgast-ecosystem/tgast-util-to-string/issues"
+    "url": "https://github.com/unigramjs/tgast-util-to-string/issues"
   },
   "keywords": [
     "telegram",

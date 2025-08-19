@@ -1,7 +1,7 @@
 {
   "name": "tgast-util-to-string",
   "type": "module",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "private": false,
   "description": "tgast utility to get the text content of a node.",
   "author": {
@@ -10,14 +10,14 @@
     "url": "https://t.me/quadratz"
   },
   "license": "MIT",
-  "homepage": "https://github.com/tgast-ecosystem/tgast-util-to-string",
+  "homepage": "https://github.com/unigramjs/tgast-util-to-string",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tgast-ecosystem/tgast-util-to-string.git"
+    "url": "git+https://github.com/unigramjs/tgast-util-to-string.git"
   },
   "bugs": {
     "email": "quadratz@proton.me",
-    "url": "https://github.com/tgast-ecosystem/tgast-util-to-string/issues"
+    "url": "https://github.com/unigramjs/tgast-util-to-string/issues"
   },
   "keywords": [
     "telegram",

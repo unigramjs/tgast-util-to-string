@@ -44,9 +44,9 @@
 		"util",
 		"utility"
 	],
-	"main": "dist/index.cjs",
-	"module": "dist/index.js",
-	"types": "dist/index.d.cts",
+	"main": "./dist/index.cjs",
+	"module": "./dist/index.js",
+	"types": "./dist/index.d.cts",
 	"exports": {
 		".": {
 			"import": "./dist/index.js",

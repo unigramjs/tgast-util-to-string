@@ -1,6 +1,6 @@
 import type { Blockquote } from 'tgast'
 import { it } from 'vitest'
-import { toString } from '../src/to-string.ts'
+import { getText } from '../src/get-text.ts'
 
 const sample: Blockquote = {
   type: 'blockquote',
@@ -33,7 +33,7 @@ const sample: Blockquote = {
 const expected = 'Hello bold old code world!'
 
 it.concurrent('should output the correct plain text', (t) => {
-  const actual = toString(sample)
+  const actual = getText(sample)
 
   t.expect(actual).toStrictEqual(expected)
 })

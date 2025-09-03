@@ -1,2 +1,2 @@
-export { toString } from './to-string.ts'
 export type { Nodes } from 'tgast'
+export { getText } from './get-text.ts'

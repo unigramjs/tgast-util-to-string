@@ -6,7 +6,7 @@ import type { Nodes } from 'tgast'
  * @param node - The tgast node to read text from.
  * @returns The combined text of all text nodes.
  */
-export function toString(tree: Nodes): string {
+export function getText(tree: Nodes): string {
   const parts: string[] = []
   const stack: Nodes[] = [tree]
 

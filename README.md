@@ -37,7 +37,7 @@ npm install tgast-util-to-string
 
 ```ts
 import type { Blockquote } from 'tgast'
-import { toString } from 'tgast-util-to-string'
+import { getText } from 'tgast-util-to-string'
 
 const node: Blockquote = {
   type: 'blockquote',
@@ -51,14 +51,14 @@ const node: Blockquote = {
   ],
 }
 
-console.log(toString(node)) // => "Hello, bold world!"
+console.log(getText(node)) // => "Hello, bold world!"
 ```
 
 ## API
 
-This package exports the identifier `toString`. There is no default export.
+This package exports the identifier `getText`. There is no default export.
 
-### `toString(node)`
+### `getText(node)`
 
 Get the plain-text value of a node.
 

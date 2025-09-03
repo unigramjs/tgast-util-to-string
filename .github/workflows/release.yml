@@ -42,7 +42,7 @@ jobs:
         run: pnpm run build
 
       - name: Publish
-        run: pnpm publish --tag ${{ steps.latest_tag.outputs.latest-tag }}
+        run: pnpm publish --no-git-checks --tag ${{ steps.latest_tag.outputs.latest-tag }}
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
           NPM_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}

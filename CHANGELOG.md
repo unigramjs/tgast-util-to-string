@@ -3,6 +3,34 @@
 All notable changes to this project will be documented in this file.
 See [standard-version] for commit guidelines.
 
+## v0.1.0
+
+[compare changes](https://github.com/unigramjs/tgast-util-to-string/compare/v0.0.2...v0.1.0)
+
+### 🔥 Performance
+
+- Use iteration instead of recursion ([4641d57](https://github.com/unigramjs/tgast-util-to-string/commit/4641d57))
+
+### 💅 Refactors
+
+- ⚠️  Rename exported `toString` to `getText` ([c6654b0](https://github.com/unigramjs/tgast-util-to-string/commit/c6654b0))
+
+### 🏡 Chore
+
+- **dev:** Update workspace ([aca0ecc](https://github.com/unigramjs/tgast-util-to-string/commit/aca0ecc))
+
+### 🎨 Styles
+
+- Fix formatting ([c365cae](https://github.com/unigramjs/tgast-util-to-string/commit/c365cae))
+
+#### ⚠️ Breaking Changes
+
+- ⚠️  Rename exported `toString` to `getText` ([c6654b0](https://github.com/unigramjs/tgast-util-to-string/commit/c6654b0))
+
+### ❤️ Contributors
+
+- Qz ([@quadratz](https://github.com/quadratz))
+
 ## [0.0.2] - 2025-08-19
 
 ### Changed

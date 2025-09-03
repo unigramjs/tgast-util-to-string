@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [standard-version] for commit guidelines.
 
+## v0.1.1
+
+[compare changes](https://github.com/unigramjs/tgast-util-to-string/compare/v0.1.0...v0.1.1)
+
+### 📖 Documentation
+
+- Rename `toString` to `getText` ([899da53](https://github.com/unigramjs/tgast-util-to-string/commit/899da53))
+
+### ❤️ Contributors
+
+- Qz ([@quadratz](https://github.com/quadratz))
+
 ## v0.1.0
 
 [compare changes](https://github.com/unigramjs/tgast-util-to-string/compare/v0.0.2...v0.1.0)

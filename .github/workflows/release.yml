@@ -36,7 +36,7 @@ jobs:
           package-json: './package.json'
 
       - name: Install dependencies
-        run: pnpm ci
+        run: pnpm install
 
       - name: Build
         run: pnpm run build

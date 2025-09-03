@@ -42,7 +42,7 @@ import { toString } from 'tgast-util-to-string'
 const node: Blockquote = {
   type: 'blockquote',
   children: [
-    { type: 'text', value: 'Hello ' },
+    { type: 'text', value: 'Hello, ' },
     {
       type: 'bold',
       children: [{ type: 'text', value: 'bold' }],
@@ -51,7 +51,7 @@ const node: Blockquote = {
   ],
 }
 
-console.log(toString(node)) // => "Hello bold world!"
+console.log(toString(node)) // => "Hello, bold world!"
 ```
 
 ## API

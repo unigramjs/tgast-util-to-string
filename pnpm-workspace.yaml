@@ -1,4 +1,2 @@
 onlyBuiltDependencies:
-  - '@pkgr/core'
   - esbuild
-  - synckit

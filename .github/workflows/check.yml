@@ -1,34 +1,32 @@
 name: Check
 
 on:
-  workflow_dispatch:
+  push:
+    branches: [main]
   pull_request:
     branches: [main]
 
-permissions:
-  contents: read
-
 jobs:
-  check:
+  test:
     runs-on: ubuntu-latest
-
     steps:
-      - name: Checkout code
+      - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Set up pnpm
-        uses: pnpm/action-setup@v4
-        with:
-          version: 10.x
-
-      - name: Set up Node.js
+      - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: 24.x
-          cache: pnpm
+          node-version: latest
+          cache: 'npm'
 
-      - name: Install dependencies
-        run: pnpm install
+      - name: Install
+        run: npm ci
 
-      - name: Run check
-        run: pnpm run lint && pnpm run test && pnpm run build
+      - name: Check
+        run: npm run check
+
+      - name: Test
+        run: npm run test
+
+      - name: Build
+        run: npm run build

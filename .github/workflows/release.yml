@@ -17,12 +17,17 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Set node
+      - name: Install pnpm
+        uses: pnpm/action-setup@v4
+        with:
+          version: 10
+
+      - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version: 'latest'
           registry-url: 'https://registry.npmjs.org/'
-          cache: 'npm'
+          cache: 'pnpm'
 
       - name: Get latest tag
         uses: tobysmith568/npm-publish-latest-tag@v1
@@ -31,13 +36,13 @@ jobs:
           package-json: './package.json'
 
       - name: Install dependencies
-        run: npm ci
+        run: pnpm ci
 
       - name: Build
-        run: npm run build
+        run: pnpm run build
 
       - name: Publish
-        run: npm publish --tag ${{ steps.latest_tag.outputs.latest-tag }}
+        run: pnpm publish --tag ${{ steps.latest_tag.outputs.latest-tag }}
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
           NPM_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}

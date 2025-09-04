@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       tgast:
-        specifier: 3.0.0-alpha.8
-        version: 3.0.0-alpha.8
+        specifier: '>=3.0.0-alpha.9'
+        version: 3.0.0-alpha.9
     devDependencies:
       '@biomejs/biome':
         specifier: 2.2.2
@@ -1012,8 +1012,8 @@ packages:
     resolution: {integrity: sha512-pFYqmTw68LXVjeWJMST4+borgQP2AyMNbg1BpZh9LbyhUeNkeaPF9gzfPGUAnSMV3qPYdWUwDIjjCLiSDOl7vg==}
     engines: {node: '>=18'}
 
-  tgast@3.0.0-alpha.8:
-    resolution: {integrity: sha512-EMk+iD/61eRntJWxwt8cAnZdYhCpTpqYZfUyN3BI0Xen2tkPm687+Kjn3vAWeDk7aNjBCx+7gMjFykbRIpRESg==}
+  tgast@3.0.0-alpha.9:
+    resolution: {integrity: sha512-V1VenMt6SlzybGKYCQGzHC7A/4NRlSjr3p5hAsgSD8eGA1/Nx1hn1+OReAumOoH1h2Q9h0+3vopx7jCBhuS3DQ==}
 
   tinybench@2.9.0:
     resolution: {integrity: sha512-0+DUvqWMValLmha6lr4kD8iAMK1HzV0/aKnCtWb9v9641TnP/MFb7Pc2bxoxQjTXAErryXVgUOfv2YqNllqGeg==}
@@ -2057,7 +2057,7 @@ snapshots:
       glob: 10.4.5
       minimatch: 9.0.5
 
-  tgast@3.0.0-alpha.8:
+  tgast@3.0.0-alpha.9:
     dependencies:
       '@types/unist': 3.0.3
 

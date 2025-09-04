@@ -79,7 +79,7 @@
 		"release:github": "changelogen gh release"
 	},
 	"dependencies": {
-		"tgast": "3.0.0-alpha.8"
+		"tgast": ">=3.0.0-alpha.9"
 	},
 	"devDependencies": {
 		"@biomejs/biome": "2.2.2",

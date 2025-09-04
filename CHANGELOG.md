@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [standard-version] for commit guidelines.
 
+## v0.1.3
+
+[compare changes](https://github.com/unigramjs/tgast-util-to-string/compare/v0.1.2...v0.1.3)
+
+### 📖 Documentation
+
+- Fix broken npm badge ([03350af](https://github.com/unigramjs/tgast-util-to-string/commit/03350af))
+
+### ❤️ Contributors
+
+- Qz ([@quadratz](https://github.com/quadratz))
+
 ## v0.1.2
 
 [compare changes](https://github.com/unigramjs/tgast-util-to-string/compare/v0.1.1...v0.1.2)
